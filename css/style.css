@@ -3,3 +3,9 @@
     src: url("../fonts/bootstrap-icons.woff"),url('../fonts/bootstrap-icons.woff2');
 }
 
+@media screen and (max-width:700px) {
+    .instructors-cards{
+        display: flex;
+        flex-direction: column;
+    } 
+
